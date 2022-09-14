@@ -18,7 +18,7 @@ async function fetchCEP(e) {
     dados.innerHTML = ''
 
     feedbackErro.style.display = "block"
-    feedbackErro.innerHTML = "<p>CEP inválido</p>"
+    feedbackErro.innerHTML = "<p>CEP não encontrado</p>"
   } else {
     return replaceDate(respData);
   }
