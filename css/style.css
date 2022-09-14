@@ -75,10 +75,8 @@ button svg {
 }
 
 @media (max-width: 500px) {
-  .input-container input,
-  .input-container button {
+  .input-container input {
     font-size: 18px;
-    padding: 10px;
   }
 
   .input-container button svg {
